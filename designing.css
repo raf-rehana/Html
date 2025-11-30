@@ -1,12 +1,10 @@
-.header
-{
-    color: white;
-    background-color: black;
+.header {
+  color: white;
+  background-color: black;
 }
 
-#sub-header
-{ 
-    font-size: 22px;
-    color: rgb(62, 8, 22);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#sub-header {
+  font-size: 22px;
+  color: rgb(62, 8, 22);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
