@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Practice Session</title>
+    <link rel="stylesheet" href="Assets/css/style.css" />
+  </head>
+  <header id="homepage">
+    <nav id="practiceNav">
+      <ul>
+        <li><a href="PracticePart.html" target="_self">Home</a></li>
+        <li><a href="about.html" target="_self">About</a></li>
+        <li><a href="vision.html" target="_self">Vision</a></li>
+        <li><a href="registration.html" target="_self">Registration</a></li>
+        <li><a href="gallery.html" target="_self">Gallery</a></li>
+        <li><a href="contact.html" target="_self">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body id="regform">
+    <form action="/submit" method="post" enctype="multipart" id="reg">
+      <fieldset id="contain">
+        <legend>User Information</legend>
+        <label for="username">User Name:</label>
+        <input type="text" required placeholder="Enter User Name" />
+
+        <label for="email">Email:</label>
+        <input type="email" />
+
+        <label for="mobile">Mobile:</label>
+        <input type="Number" />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" required />
+
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Female
+        <input type="radio" name="gender" />Other
+        <label for="resume">Image</label>
+        <input type="file" id="image" name="image" accept=".jpeg, .png" />
+
+        <label for="resume">Resume</label>
+        <input type="file" accept=".pdf, .docx" />
+        <br /><br />
+        <button type="submit">Submit</button>
+        <button type="submit">Cancel</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -13,14 +13,14 @@ caption {
   background-origin: padding-box;
   background-color: rgb(49, 44, 44);
 }
-#nav {
+#practiceNav {
   background-color: rgb(2, 48, 50);
   width: 100%;
   height: 10vh;
   padding: 25px 30px;
 }
-#nav ul,
-#nav li {
+#practiceNav ul,
+#practiceNav li {
   list-style: none;
   float: left;
   margin: 13px 16px;
@@ -28,33 +28,32 @@ caption {
   font-size: 27px;
   text-align: center;
 }
-a {
+#practiceNav a {
+  text-decoration: none;
   color: white;
 }
 
-form {
-  max-width: 800px;
+#reg {
+  max-width: 700px;
   margin: auto;
   padding: 10px;
   background: #b6edfc;
   border-radius: 10px;
 }
-label {
+#contain label {
   display: block;
-  margin: 20px 0 5px;
+  margin: 12px 0 3x;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 15px;
 }
-input{
-  padding: 10px;
+#contain input{
+  padding: 8px;
   border: 2px solid black;
   border-radius: 6px;
   margin-bottom: 8px;
 }
-#regform {
-  background-color: hwb(0 62% 13%);
-}
-button{
+
+#contain button{
   font-size: 18px;
   color: whitesmoke;
   padding: 10px 10px;
@@ -63,4 +62,14 @@ button{
   border-radius: 6px;
   cursor: pointer;
 }
+#regform {
+  background-color: hwb(192 11% 53%);
+}
 *{margin: 0;}
+.rega{
+  text-decoration: none;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
