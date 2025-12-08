@@ -1,0 +1,58 @@
+
+.formmake{
+    width: 60%;
+    height: 250px;
+    margin: auto;
+   background-color: aquamarine;
+   align-items: center;
+}
+
+.formmake label, select, input, button{
+    margin-top: 15px;
+}
+
+table{
+    margin: auto;
+    width: 60%;
+    height: 400px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+table, th, tr, td{
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.sidebar{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+
+}
+.sidebar ul, li{ display: flex;
+    list-style: none;
+   float: left;
+   gap: 20px;
+  
+}
+
+.sidebar a{
+      color: aliceblue;
+      text-decoration: none;
+     font-size: 20px;
+      display: flex;
+}
+
+.sidebar a:hover{
+    color: black;
+    background-color: aquamarine;
+    border-radius: 4px;
+}
+.maincontent{
+    float: right;
+    width:100%;
+    height: 90vh;
+}
